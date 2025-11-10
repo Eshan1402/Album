@@ -17,20 +17,19 @@ A luxurious and royal wedding album website with elegant design, smooth animatio
 
 ```
 WeddingAlbum/
-├── Pictures/                    # Wedding photos directory (at root level)
+├── Pictures/                    # Wedding photos directory
 │   ├── IMG_4361.jpg
 │   ├── IMG_4362.jpg
 │   └── ...
-└── shivangi-siddharth-wedding-album/
-    ├── index.html              # Main HTML file
-    ├── assets/
-    │   ├── css/
-    │   │   ├── styles.css      # Main styles with luxurious theme
-    │   │   └── animations.css  # All animations
-    │   └── js/
-    │       ├── main.js         # Gallery and lightbox functionality
-    │       └── cursor.js       # Custom cursor effects
-    └── README.md
+├── index.html                   # Main HTML file (at root for GitHub Pages)
+├── assets/
+│   ├── css/
+│   │   ├── styles.css          # Main styles with luxurious theme
+│   │   └── animations.css       # All animations
+│   └── js/
+│       ├── main.js              # Gallery and lightbox functionality
+│       └── cursor.js            # Custom cursor effects
+└── README.md
 ```
 
 ## 🚀 Setup Instructions
@@ -48,7 +47,7 @@ WeddingAlbum/
    - Then visit `http://localhost:8000` in your browser
 
 2. **Photo Paths**:
-   - Photos are loaded from `../Pictures/` directory
+   - Photos are loaded from `Pictures/` directory (relative to root)
    - Make sure your photos are in the `Pictures` folder at the root level
    - Update `photoFiles` array in `assets/js/main.js` to add more photos
 
@@ -83,3 +82,14 @@ This website is designed to showcase your beautiful wedding memories in an elega
 ---
 
 **Made with ❤️ for Shivangi & Siddharth**
+
+## 🌐 Live Website
+
+Your website is now ready for GitHub Pages! 
+
+1. Go to: https://github.com/Eshan1402/Album/settings/pages
+2. Under "Source", select:
+   - Branch: `main`
+   - Folder: `/ (root)`
+3. Click "Save"
+4. Your website will be live at: **https://eshan1402.github.io/Album/**
