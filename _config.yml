@@ -1,0 +1,6 @@
+# GitHub Pages Configuration
+# This ensures index.html is served correctly
+
+plugins: []
+theme: null
+
