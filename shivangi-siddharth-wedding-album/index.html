@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivangi weds Siddharth - Wedding Album</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Floral Background Pattern -->
+    <div class="floral-pattern"></div>
+    <div class="floral-pattern floral-pattern-2"></div>
+
+    <!-- Header with Animated Title -->
+    <header class="header">
+        <div class="header-content">
+            <div class="decorative-line decorative-line-left"></div>
+            <h1 class="main-title">
+                <span class="title-word title-word-1">Shivangi</span>
+                <span class="title-connector">&</span>
+                <span class="title-word title-word-2">Siddharth</span>
+            </h1>
+            <div class="decorative-line decorative-line-right"></div>
+        </div>
+        <p class="subtitle">A Royal Celebration of Love</p>
+        <div class="floral-decoration">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-leaf"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </header>
+
+    <!-- Main Gallery -->
+    <main class="gallery-container">
+        <div class="gallery-intro">
+            <h2 class="gallery-title">Our Wedding Memories</h2>
+            <p class="gallery-subtitle">Cherished moments captured forever</p>
+        </div>
+        
+        <div class="photo-gallery" id="photoGallery">
+            <!-- Photos will be dynamically loaded here -->
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div class="pagination-container">
+            <button class="pagination-btn pagination-prev" id="prevBtn" aria-label="Previous Page">
+                <i class="fas fa-chevron-left"></i>
+                <span>Previous</span>
+            </button>
+            <div class="pagination-info">
+                <span class="page-indicator">
+                    <span id="currentPage">1</span> / <span id="totalPages">1</span>
+                </span>
+                <span class="photo-count">
+                    Showing <span id="showingStart">1</span> - <span id="showingEnd">30</span> of <span id="totalPhotos">0</span> photos
+                </span>
+            </div>
+            <button class="pagination-btn pagination-next" id="nextBtn" aria-label="Next Page">
+                <span>Next</span>
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">Made With Love & Blessings</p>
+            <p class="footer-names">Eshan Saxena</p>
+            <div class="footer-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <a class="lightbox-download" id="lightboxDownload" download>
+            <i class="fas fa-download"></i> Download
+        </a>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cursor.js"></script>
+</body>
+</html>
