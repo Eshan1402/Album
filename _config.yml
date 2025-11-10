@@ -1,6 +1,8 @@
 # GitHub Pages Configuration
-# This ensures index.html is served correctly
+# Disable Jekyll processing to serve index.html directly
 
 plugins: []
 theme: null
+include: []
+exclude: []
 
